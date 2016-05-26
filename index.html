@@ -7,6 +7,17 @@
   <script src="build/js/vendor.min.js"></script>
   <script type="text/javascript" src="build/js/app.js"></script>
   <body class="container">
-    <div id="map"></div>
+    <form id="user-age">
+      <div class="form-group">
+        <label for="birth-info">What's your age?</label>
+        <input id="age" type="text">
+        <button class="btn-success" type="submit">Submit</button>
+      </div>
+    </form>
+    <div id="map">
+    </div>
+    <div id="sorry" class="container">
+      <p>Sorry, no pins on your map! You are too young to see naked beaches.</p>
+    </div>
   </body>
   </html>

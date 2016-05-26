@@ -6,4 +6,16 @@ html, body {
 }
  #map {
    height: 80%;
+   margin-top: 50px;
+
+}
+#sorry{
+display: none;
+color: red;
+font-size: 26px;
+font-weight: bold;
+width: auto;
+height: 2px;
+margin-top: -665px;
+margin-bottom: 10px;
 }
